@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserTS" time="3.28" tests="1" failures="0" errors="0">
+   <testsuite name="UserTS" tests="1" failures="0" errors="0" time="3.28" timestamp="2020-08-11 13:17:49" hostname="sujodey - LIN35009283.corp.capgemini.com" id="Test Suites/UserTestSuite/UserTS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sujodey\\Katalon Studio\\Sample API Test\\Reports\\20200811_131737\\UserTestSuite\\UserTS\\20200811_131737"/>
+         <property name="logFiles" value="C:\\Users\\sujodey\\Katalon Studio\\Sample API Test\\Reports\\20200811_131737\\UserTestSuite\\UserTS\\20200811_131737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sujodey - LIN35009283.corp.capgemini.com"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+      </properties>
+      <testcase name="Test Cases/UserTestCase/ValidateUserDetails" time="2.848" classname="Test Cases/UserTestCase/ValidateUserDetails" status="PASSED">
+         <system-out><![CDATA[2020-08-11 13:17:49 - [TEST_CASE][PASSED] - Test Cases/UserTestCase/ValidateUserDetails: Test Cases/UserTestCase/ValidateUserDetails
+
+2020-08-11 13:17:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/GetUserDetail")): Send request successfully
+
+2020-08-11 13:17:52 - [MESSAGE][INFO] - HAR: C:\Users\sujodey\Katalon Studio\Sample API Test\Reports\20200811_131737\UserTestSuite\UserTS\20200811_131737\requests\main\0.har
+
+2020-08-11 13:17:52 - [MESSAGE][PASSED] - Send request successfully
+
+2020-08-11 13:17:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-08-11 13:17:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-11 13:17:49 - [TEST_SUITE][PASSED] - UserTS: Test Cases/UserTestCase/ValidateUserDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
